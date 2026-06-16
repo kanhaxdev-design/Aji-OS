@@ -1,4 +1,4 @@
-# Python
+* Python `__pycache__/` and `.pyc` files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -65,3 +65,47 @@ logs/
 # OS
 Thumbs.db
 .DS_Store
+
+# Rust/Tauri
+target/
+Cargo.lock
+
+# Build artifacts
+build/
+dist/
+out/
+release/
+
+# Frontend
+frontend/dist/
+frontend/.env.local
+
+# Backend
+backend/data/*.db
+backend/logs/*.log
+backend/data/tts_output.mp3
+backend/data/screenshots/
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# IDE specific
+.vscode/settings.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
